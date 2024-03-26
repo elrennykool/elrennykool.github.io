@@ -1,0 +1,72 @@
+body{
+    margin: auto;
+    padding: 20px;
+    font-family: 'Trebuchet MS';
+    background-color:LightGray;
+}
+header{ height: 150px; background-color:white; margin-bottom: 20px; }
+td{ font-family: 'Montserrat'; font-size: 140%; }
+nav{ background-color: #242d36 ; padding: 10px; margin-bottom: 20px;}
+nav ul li{ margin: 0; padding: 0; display: inline; }
+nav ul li a{
+    color:black;
+    background-color:#a3f797;
+    padding: 5px 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+nav ul li a:hover{ background-color: rgb(43, 255, 0); }
+.seccion{
+    background-color:GhostWhite;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-left, .div-right{
+    width: calc(50% - 30px);
+    margin-right: 10px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#intro{ font-family:'Montserrat'; font-size: 300%; font-weight:bold; }
+#div-center{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3{ font-family:'Montserrat'; font-size: 200%; color:limegreen;}
+p{ font-size: 150%; }
+footer{
+    height: 55px;
+    background-color:white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+#form-reg{
+  width: 400px;
+  background:palegreen;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 7px 7px 10px #242d36;
+}
+.input-ctrl{
+  width: 95%;
+  background:MintCream;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  border: 1px solid black;
+  font-family: 'Trebuchet MS';
+  font-size: 16px;
+}
+#btn-reg{
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
